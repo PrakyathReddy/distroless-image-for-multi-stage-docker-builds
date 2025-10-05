@@ -1,5 +1,7 @@
 # distroless-image-for-multi-stage-docker-builds
 
+Reduce docker image size to <1% of original docker image without compromising on functionality 
+
 Both multi-stage docker builds and distroless images are efforts to reduce the size of docker image. 
 
 Especially useful in scenarios where security, efficiency and minimalism are top priorities.
@@ -7,3 +9,5 @@ Especially useful in scenarios where security, efficiency and minimalism are top
 However, lack of an interactive shell makes debugging difficult. Also, since dependencies are fixed, we cannot add more on the fly. It's immutable.
 
 So, need to choose only in scenarios where we are confident that the app won't break and is well tested.
+
+We can create the binaries from Stage 1 with Ubuntu as the base image. Then, only use those binaries in stage 2 plus the executable - python/java,etc..
