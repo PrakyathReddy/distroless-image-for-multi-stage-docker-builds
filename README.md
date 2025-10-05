@@ -13,6 +13,15 @@ So, need to choose only in scenarios where we are confident that the app won't b
 We can create the binaries from Stage 1 with Ubuntu as the base image. Then, only use those binaries in stage 2 plus the executable - python/java,etc..
 
 Step 1: Create calculator application in Go. $ go run calculator.go
+
 Step 2: Containerise this and execute the container
+
 Step 3: Create dockerfile without multi-stage
+
+Step 4: Build docker image
+% docker build -t simplecalculator .
+. means use current directory as build context
+% docker images    
+REPOSITORY         TAG       IMAGE ID       CREATED         SIZE
+simplecalculator   latest    1cbe04de39d9   2 minutes ago   954MB
 
