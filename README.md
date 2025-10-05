@@ -1,4 +1,4 @@
-# distroless-image-for-multi-stage-docker-builds
+# Distroless image for multi-stage docker builds
 
 Reduce docker image size 954MB to 3.19MB without compromising on functionality at the same time improving security
 
