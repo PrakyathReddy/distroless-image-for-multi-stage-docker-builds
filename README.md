@@ -14,3 +14,5 @@ We can create the binaries from Stage 1 with Ubuntu as the base image. Then, onl
 
 Step 1: Create calculator application in Go. $ go run calculator.go
 Step 2: Containerise this and execute the container
+Step 3: Create dockerfile without multi-stage
+
