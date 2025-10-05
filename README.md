@@ -22,7 +22,7 @@ Step 4: Build docker image
 % docker build -t simplecalculator .
 . means use current directory as build context
 % docker images    
-REPOSITORY         TAG       IMAGE ID       CREATED         SIZE
+REPOSITORY         TAG       IMAGE ID       CREATED         SIZE <br>
 simplecalculator   latest    1cbe04de39d9   2 minutes ago   954MB
 
 Size of image: 954MB
@@ -37,7 +37,7 @@ Step 7: Build the multi-stage image
 $ docker build -t simple-calculator-multi-stage-distroless .
 
 $ docker images
-REPOSITORY                                 TAG       IMAGE ID       CREATED          SIZE
+REPOSITORY                                 TAG       IMAGE ID       CREATED          SIZE <br>
 simple-calculator-multi-stage-distroless   latest    a6c1aeaea036   32 seconds ago   3.19MB
 
 IMAGE SIZE: 3.19 MB
