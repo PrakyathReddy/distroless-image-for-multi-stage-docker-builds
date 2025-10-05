@@ -11,3 +11,6 @@ However, lack of an interactive shell makes debugging difficult. Also, since dep
 So, need to choose only in scenarios where we are confident that the app won't break and is well tested.
 
 We can create the binaries from Stage 1 with Ubuntu as the base image. Then, only use those binaries in stage 2 plus the executable - python/java,etc..
+
+Step 1: Create calculator application in Go. $ go run calculator.go
+Step 2: Containerise this and execute the container
