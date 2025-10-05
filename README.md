@@ -42,3 +42,7 @@ simple-calculator-multi-stage-distroless   latest    a6c1aeaea036   32 seconds a
 
 IMAGE SIZE: 3.19 MB
 
+Other distroless images as per necessity: https://github.com/GoogleContainerTools/distroless
+
+Step 8: push to dockerhub
+$ docker push prakyathreddyk/multi-stage-distroless-calculator
