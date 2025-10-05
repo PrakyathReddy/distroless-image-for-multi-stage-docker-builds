@@ -25,3 +25,8 @@ Step 4: Build docker image
 REPOSITORY         TAG       IMAGE ID       CREATED         SIZE
 simplecalculator   latest    1cbe04de39d9   2 minutes ago   954MB
 
+Size of image: 954MB
+
+Step 5: push image to docker hub
+$ docker login
+$ docker tag simplecalculator prakyathreddyk/sample-images:latest 
