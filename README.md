@@ -30,3 +30,15 @@ Size of image: 954MB
 Step 5: push image to docker hub
 $ docker login
 $ docker tag simplecalculator prakyathreddyk/sample-images:latest 
+
+Step 6: Create multi-stage build with distroless image
+
+Step 7: Build the multi-stage image
+$ docker build -t simple-calculator-multi-stage-distroless .
+
+$ docker images
+REPOSITORY                                 TAG       IMAGE ID       CREATED          SIZE
+simple-calculator-multi-stage-distroless   latest    a6c1aeaea036   32 seconds ago   3.19MB
+
+IMAGE SIZE: 3.19 MB
+
